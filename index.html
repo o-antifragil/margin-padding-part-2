@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding</title>
+    <link rel="stylesheet" href="/CSS3/06 - padding/estilo.css">
+</head>
+
+<body>
+    <div>
+        <h2>O que é o padding?</h2>
+        <p>
+            O padding no CSS é uma propriedade que define o espaçamento interno de um elemento. Em outras palavras, ele
+            controla a distância entre o conteúdo de um elemento (como texto ou imagens) e suas bordas internas. Esse
+            espaço ajuda a "afastar" o conteúdo das bordas, tornando o layout mais organizado e proporcionando um visual
+            mais agradável.
+        </p>
+        <h3>Como funciona o padding?</h3>
+        <p>
+            Imagine um botão com texto dentro. Se você quiser que o texto tenha mais "respiro" dentro do botão, você
+            pode aumentar o padding para criar espaço ao redor do texto, dentro do botão. Isso é muito útil para
+            melhorar a legibilidade e estética do design.
+        </p>
+        <h3>Sintaxe do padding</h3>
+        <p>
+            O padding pode ser especificado de diferentes maneiras, dependendo das necessidades de design:
+        </p>
+        <ol>
+            <li>
+                padding: 20px;
+                <ul>
+                    <li>Define o padding de 20 pixels em todos os lados (superior, direito, inferior e esquerdo).</li>
+                </ul>
+            </li>
+        
+            <li>
+                padding: 10px 20px;
+                <ul>
+                    <li>Define 10 pixels de padding para o topo e a base, e 20 pixels para a direita e esquerda.</li>
+                </ul>
+            </li>
+        
+            <li>
+                padding: 10px 15px 20px 25px;
+                <ul>
+                    <li>Define diferentes valores para cada lado:</li>
+                    <li>10 pixels para o topo</li>
+                    <li>15 pixels para a direita</li>
+                    <li>20 pixels para a base</li>
+                    <li>25 pixels para a esquerda</li>
+                </ul>
+            </li>
+        
+            <li>
+                Propriedades específicas
+                <ul>
+                    <li>Também é possível definir o padding de cada lado individualmente:</li>
+                    <li>padding-top: define o padding apenas na parte superior.</li>
+                    <li>padding-right: define o padding apenas na direita.</li>
+                    <li>padding-bottom: define o padding apenas na base.</li>
+                    <li>padding-left: define o padding apenas na esquerda.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <div>
+        <h3>Exemplo</h3>
+        <pre class="exemplo">
+            <code>
+                <span class="selector">.box {</span>
+                   <span class="property">padding</span>: <span class="value">15px</span><span class="punctuation">;</span>
+                   <span class="property">padding-top</span>: <span class="value">10px</span><span class="punctuation">;</span>
+                   <span class="property">padding-right</span>: <span class="value">20px</span><span class="punctuation">;</span>
+                   <span class="property">background-color</span>: <span class="value">#f0f0f0</span><span class="punctuation">;</span>
+                <span class="selector">}</span>
+            </code>
+        </pre>
+    </div>
+    <div>
+        <h3>Diferença entre padding e margin</h3>
+        <ul>
+            <li>padding: controla o espaço interno de um elemento, ou seja, entre o conteúdo e suas bordas internas.
+            </li>
+            <li>margin: controla o espaço externo de um elemento, ou seja, entre as bordas do elemento e os elementos ao
+                seu redor.</li>
+        </ul>
+        <h3>Uso do padding em Layouts</h3>
+        <p>O padding é frequentemente usado para melhorar a legibilidade e o espaçamento de elementos, como:</p>
+        <ul>
+            <li>Botões</li>
+            <li>Blocos de texto (parágrafos, títulos)</li>
+            <li>Imagens ou ícones com padding interno</li>
+            <li>Formulários e campos de entrada de dados</li>
+        </ul>
+    </div>
+</body>
+
+</html>
